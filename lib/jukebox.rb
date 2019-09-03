@@ -46,3 +46,8 @@ def play(songs)
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  puts "Please enter a command:"
+  response = gets.chomp.strip
+end
